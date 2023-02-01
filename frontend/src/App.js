@@ -1,9 +1,11 @@
-
+import Section from "./components/Section";
+import Header from "./components/Header";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <h1>Just Things Handmade</h1>
+        <Header />
+        <Section />
       </header>
     </div>
   );
